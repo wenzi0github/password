@@ -27,4 +27,4 @@ if(empty($url) || empty($password) || empty($code)){
 }
 
 $_SESSION['s'] = $s;
-header('Location:./index.1.php');
+header('Location:./index.php');
