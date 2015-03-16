@@ -23,8 +23,8 @@ if(empty($url) || empty($password) || empty($content)){
 			$e2 .= $code[$i];
 		}
 	}
-	$e = $e1.$e2;
-	// $e = $code;
+	// $e = $e1.$e2;
+	$e = $code;
 
 	$s = array('status'=>0, 'msg'=>$url.'&nbsp;&nbsp;'.$e.'&nbsp;&nbsp;'.$res);
 }
